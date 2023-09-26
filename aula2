@@ -1,0 +1,2071 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "794a7b99",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Subtração\n",
+    "10 - 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "26a9476a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4.0"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#divisão\n",
+    "8 / 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "f1677a2a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2.0"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#exponencial\n",
+    "4**(1/2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "6236337b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "14"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#soma\n",
+    "10 + 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "ed155b48",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "16"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#multiplicação\n",
+    "8 * 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "13699887",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "16"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#raiz quadrada\n",
+    "4**2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "f37edca1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#divisão inteira\n",
+    "20//6\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "3aee0d6c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Resto\n",
+    "20 % 6"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c847890c",
+   "metadata": {},
+   "source": [
+    "# Ordem das operações\n",
+    "- Paranteses (), explonencial**, multiplicação* e divisão, soma+ e subtração- \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "71302c8e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "24"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#multiplicação ocorre primeiro\n",
+    "4 + 4*4 + 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "5539a427",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "64"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#paretenses alteram a prioridade para as operações de soma\n",
+    "(4 + 4) * (4 + 4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "3827bd94",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "12"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Exponencial ocorre primeiro\n",
+    "3 * 2**2 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "f29732c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "36"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Exponencial ocorre primeiro para operações de multiplicações \n",
+    "(3 * 2)**2 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "b4f50b94",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5.0"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Divisão ocorre primeiro\n",
+    "1 +8 /2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "7f21a9bc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2.6666666666666665"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Parenteses altera a prioridade para soma\n",
+    "8/(2 + 1)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bb86252d",
+   "metadata": {},
+   "source": [
+    "# Operadores de comparativos\n",
+    "- Maior >\n",
+    "- Menor < \n",
+    "- Maior ou Igual >=\n",
+    "- Menor ou Igual <=\n",
+    "- Igual ==\n",
+    "- Não Igual =!\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "ad9662d3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "6 < 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "a59b8cd7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "6 == 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "24dd975d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "6 > 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "18a0dcd5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "6 == 6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "d7605b95",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "6 != 7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "43a9833e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b2fdcf04",
+   "metadata": {},
+   "source": [
+    "# Variáveis"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "b64ce71c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n",
+      "6\n",
+      "16\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Para atribuir valores para uma variável, utilizar '='\n",
+    "#x = 2\n",
+    "#y = 4\n",
+    "\n",
+    "#Print função para exibir coisas na tela\n",
+    "print(x*y)\n",
+    "print(x+y)\n",
+    "print(x**y)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "94f4cd12",
+   "metadata": {},
+   "source": [
+    "# Nome das variáveis\n",
+    "-Sequencia de letras e numeros, deve sempre começar com uma letra, nao se pode começar com números e caracteres especiais, com excessão o underline _\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ddc5754f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "c9a6f3aa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#nomes válidos\n",
+    "num=2\n",
+    "texto = \"olá\"\n",
+    "_teste_ = 10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "d3a7f171",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#nomes inválidos\n",
+    "#2num = 2\n",
+    "#@texto = 'olá'\n",
+    "#teste = 10    "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6424b2e4",
+   "metadata": {},
+   "source": [
+    "# Strings\n",
+    "-Strings são operações com textos, mas cadas por aspas \"\" ou ''"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "b123c3fa",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello Word!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print ('Hello Word!')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "adbcc8f7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Bem vindo DEVs ao curso de Python da FEA\n"
+     ]
+    }
+   ],
+   "source": [
+    "#definindo váriavel para string\n",
+    "string = \"Bem vindo DEVs ao curso de Python da FEA\"\n",
+    "#Dando print\n",
+    "print (string)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "85881a8d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "Bem vindo ao curso de python\n",
+      "Esta é a primeira aula\n",
+      "Aproveitem bastante\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "#usar uma sequencia de tres aspas \"\"\" duplas e escrever strings várias linhas:\n",
+    "string2 = \"\"\"\n",
+    "Bem vindo ao curso de python\n",
+    "Esta é a primeira aula\n",
+    "Aproveitem bastante\n",
+    "\"\"\"\n",
+    "print (string2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4679d3fc",
+   "metadata": {},
+   "source": [
+    "# Concatenando strings\n",
+    "-Não é possível usar operadores aritiméticos que vimos em strings, mas e possível juntar com o operador '+'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "743a25c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = \"Hello \"\n",
+    "y = \"World\"\n",
+    "print (x + y)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7c3665ac",
+   "metadata": {},
+   "source": [
+    "-Indexação e Fatiamento de strings"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "6624e62e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'B'"
+      ]
+     },
+     "execution_count": 67,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Selecionando o 1. caracter\n",
+    "string = \"Bem vindo DEVs ao curso de Python da FEA\"\n",
+    "string [0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "2ae18ccc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'A'"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#também pode iniciar de trás para frente, iniciando pelo -1\n",
+    "#Selecionando penultimo caractere\n",
+    "string = \"Bem vindo DEVs ao curso de Python da FEA\"\n",
+    "string [-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "3938c7c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'vindo '"
+      ]
+     },
+     "execution_count": 70,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Selecionando bloco de caracteres com ':':\n",
+    "#Começo da selecção inclui numero inicial e exclui o numero final, ou seja\n",
+    "# seelcionando [4:10] vai obter os caracteres 4 ao nove\n",
+    "string [4:10]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "a73c8b99",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' ao curso de Python da FEA'"
+      ]
+     },
+     "execution_count": 71,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Para selecionar de um ponto até o final , basta usar o numero desejado e dois pontos\n",
+    "#Pegando 14 ao final\n",
+    "string[14:]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6298d99b",
+   "metadata": {},
+   "source": [
+    "# Métodos de strings"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "b5c0ce2a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'EXEMPLO'"
+      ]
+     },
+     "execution_count": 72,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#upper\n",
+    "exemplo = 'exemplo'\n",
+    "exemplo.upper()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "8cf3e605",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'exemplo'"
+      ]
+     },
+     "execution_count": 73,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#lower\n",
+    "exemplo = 'exemPLO'\n",
+    "exemplo.lower()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "49b6fd7e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'exemPLO'"
+      ]
+     },
+     "execution_count": 74,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#strip\n",
+    "exemplo = '    exemPLO   '\n",
+    "exemplo.strip()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "616c2d1b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'programar é muito bom'"
+      ]
+     },
+     "execution_count": 76,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#retorna uma string nova nas ocorrencias\n",
+    "exemplo2 = 'programar é muito chato'\n",
+    "exemplo2.replace('chato','bom')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1edb4a4a",
+   "metadata": {},
+   "source": [
+    "# input e output\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "f8a2d347",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Como voce está ?Bem\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'Bem'"
+      ]
+     },
+     "execution_count": 78,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Para perguntar informações ao usuário, utilizar input()\n",
+    "input('Como voce está ?')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "id": "46af0b15",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Parabens por chegar até aqui\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Para exibição de mensagem, utilizar print()\n",
+    "print(\"Parabens por chegar até aqui\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "id": "074efcae",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Quantos anos voce tem ? \n",
+      "5\n",
+      "Você tem 5 anos, que legal!\n"
+     ]
+    }
+   ],
+   "source": [
+    "#atribuir inputs para trabalhar com dados\n",
+    "idade = input (\"Quantos anos voce tem ? \\n\")\n",
+    "#maneiras de colocar variáveis c strings em prints\n",
+    "#print(\"Você tem\", idade, \"anos, que legal!\")\n",
+    "print(f\"Você tem {idade} anos, que legal!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "074da876",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Tomei incriveis 8 xícaras de CHÁ!!!!\n"
+     ]
+    }
+   ],
+   "source": [
+    "#f-strings pode colocar dentro de chaves, funções, variáveis, operações, formulas e metodos dentro de {} nas strings\n",
+    "a = 2\n",
+    "b = 4\n",
+    "bebida = 'chá'\n",
+    "\n",
+    "f_string = f\"Tomei incriveis {a * b} xícaras de {bebida.upper() + b*'!'}\"\n",
+    "\n",
+    "print(f_string)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f29a85c3",
+   "metadata": {},
+   "source": [
+    "# Estrutura de Dados\n",
+    "-Floats, inteiros, booleanos, strings..\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "id": "70ec0486",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n",
+      "<class 'float'>\n",
+      "<class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 1 - inteiro e booleano\n",
+    "a = 5\n",
+    "b = 6.552\n",
+    "c = 5.0\n",
+    "\n",
+    "#Função type() verifica qual é o tipo da variável\n",
+    "print(type(a))\n",
+    "print(type(b))\n",
+    "print(type(c))\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "id": "aba35743",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'float'>\n",
+      "<class 'int'>\n",
+      "<class 'float'>\n",
+      "10.0\n",
+      "6\n",
+      "2.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 2 -  Função Type\n",
+    "d = 5 + 5.0\n",
+    "e = 2 * 3\n",
+    "f = 4**(1/2)\n",
+    "\n",
+    "print(type(d))\n",
+    "print(type(e))\n",
+    "print(type(f))\n",
+    "\n",
+    "print(d)\n",
+    "print(e)\n",
+    "print(f)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "29759bc6",
+   "metadata": {},
+   "source": [
+    "- String (str) Junção de caracteres usualmente para utilizar palavras, mas pode existir strings de numeros."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "f81e9765",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'str'>\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 3 - Algumas strings\n",
+    "palavra =  'Olá, Mundo!'\n",
+    "numero = '1550'\n",
+    "print(type(palavra))\n",
+    "print(type(numero))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "a2a79cef",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Olá, Mundo!1550\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 4 - concatenando numeros com strings\n",
+    "print(palavra + numero)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "29537d93",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "can only concatenate str (not \"int\") to str",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp\\ipykernel_1160\\2490786688.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[1;31m#exemplo 5 - erro concatenando numeros com strings\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m----> 2\u001b[1;33m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mpalavra\u001b[0m \u001b[1;33m+\u001b[0m \u001b[1;36m1550\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: can only concatenate str (not \"int\") to str"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 5 - erro concatenando numeros com strings\n",
+    "print(palavra + 1550)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "319cc201",
+   "metadata": {},
+   "source": [
+    "- Boolean em programação represetam Verdadeiro (true) ou Falso (false), são tradados como inteiros em operações matemáticas, true representa (1) e false representa (0), e são utilizados em comparações"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "f53a31ac",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'str' object does not support item assignment",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp\\ipykernel_1160\\574461793.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[1;31m#exemplo 6 - erro objeto imutável\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m----> 2\u001b[1;33m \u001b[0mpalavra\u001b[0m\u001b[1;33m[\u001b[0m\u001b[1;36m0\u001b[0m\u001b[1;33m]\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0ma\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: 'str' object does not support item assignment"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 6 - erro objeto imutável\n",
+    "palavra[0] = a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 96,
+   "id": "c4054a58",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n",
+      "<class 'bool'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 7 identificando tipo bool\n",
+    "z = 5 > 6\n",
+    "print(z)\n",
+    "print(type(z))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "id": "1d052788",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 98,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#exemplo 8 - soma dos booleanos\n",
+    "True + True\n",
+    "True + False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 100,
+   "id": "9f0da6d7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 9 - comparações\n",
+    "palavra1 = 'olá'\n",
+    "palavra2 = 'mundo'\n",
+    "\n",
+    "print(palavra1 == palavra2)\n",
+    "print(palavra1 > palavra2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2b59ba13",
+   "metadata": {},
+   "source": [
+    "- A partir de algumas funções e possível transformar objetos em outros tipos, (não todos).\n",
+    "    - str() transforma em string\n",
+    "    - int() transforma em inteiro\n",
+    "    - float() transforma em float"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 123,
+   "id": "ec7891c7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "19\n",
+      "10.0\n",
+      "1\n",
+      "0\n",
+      "Tenho 5.5 reais\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 10 transformações\n",
+    "\n",
+    "print(int(19.9))\n",
+    "print(float(10))\n",
+    "print(int(True))\n",
+    "print(int(False))\n",
+    "print(\"Tenho \"+ str(5.5) + \" reais\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f6b205e5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#exemplo 11 - erro de transformações\n",
+    "int(Olá)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3f54eb0e",
+   "metadata": {},
+   "source": [
+    "# O que são estrutura de dados ?\n",
+    "Variáveis diferentes e Listas"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 124,
+   "id": "23882d21",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7\n",
+      "3\n",
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 1 - Utilizando a função len()\n",
+    "entidade = \"FEA.dev\"\n",
+    "institutos = [\"FEA\",\"Poli\",\"IME\"]\n",
+    "Faculdades = {'FEA': ['Economia', 'Administração', 'Contábeis', 'Atuárias'], 'Poli':'Civil', 'IME':'Estatistica'}\n",
+    "print(len(entidade))\n",
+    "print(len(institutos))\n",
+    "print(len(Faculdades))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 125,
+   "id": "5e8981c8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['FEA', 'Poli', 'IME', 'FAU']\n",
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 2 - Utilizando a função .append()\n",
+    "institutos.append('FAU')\n",
+    "print(institutos)\n",
+    "print(len(institutos))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 116,
+   "id": "1c3d1eb2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['FEA', 'Poli', 'IME', 'FAU']\n",
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 3 - Utilizando a função .remove()\n",
+    "institutos.remove('FAU')\n",
+    "print(institutos)\n",
+    "print(len(institutos))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "01f4ce4e",
+   "metadata": {},
+   "source": [
+    "- Métodos úteis de strings"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 127,
+   "id": "31e60cd4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Qual é o seu nome ?Fernando\n",
+      "Você não é a Milena !\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Exemplo 1 - utilidade de metodos\n",
+    "nome = input('Qual é o seu nome ?')\n",
+    "\n",
+    "if nome.lower() == 'milena':\n",
+    "    print('Você é a Milena !')\n",
+    "    \n",
+    "else: \n",
+    "    print('Você não é a Milena !')    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 138,
+   "id": "439049d9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "    FEA      \n",
+      "FEA\n"
+     ]
+    }
+   ],
+   "source": [
+    "# exemplo 2 outros métodos\n",
+    "institutos1 = '    FEA      '\n",
+    "print(institutos1)\n",
+    "print(institutos1.strip())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 139,
+   "id": "0860ce7a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      ",,,,,,FEA,\n",
+      "FEA\n"
+     ]
+    }
+   ],
+   "source": [
+    "# exemplo 2 outros métodos\n",
+    "institutos2 = ',,,,,,FEA,'\n",
+    "print(institutos2)\n",
+    "print(institutos2.strip(','))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 140,
+   "id": "558ced87",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Programação\n",
+      "Programaçao\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 3 - objeto imutável\n",
+    "objetivo = 'Programação'\n",
+    "print(objetivo)\n",
+    "print(objetivo.replace('ã','a'))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 141,
+   "id": "cd34c0cf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Programação\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(objetivo)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 148,
+   "id": "e77b1ab0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n",
+      "True\n",
+      "-1\n",
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 4 - outros métodos\n",
+    "print(objetivo.startswith('p'))\n",
+    "print(objetivo.endswith('o'))\n",
+    "print(objetivo.find('z'))\n",
+    "print(objetivo.find('ra'))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "02801717",
+   "metadata": {},
+   "source": [
+    "# formatação de strings\n",
+    "- Existem diversas formas de formatar saídas em 'print', mas as mais eficientes são o f-string e .format()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 158,
+   "id": "4cb8badc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Eu tenho 19 anos de idade.\n",
+      "Eu tenho 19 anos de idade.\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 1\n",
+    "frase1 = 'Eu tenho'\n",
+    "frase2 = 'anos de idade'\n",
+    "print(frase1 + ' ' + str(19) + ' ' + frase2 + '.')\n",
+    "print('Eu tenho 19 anos de idade.')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 159,
+   "id": "03a1d924",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Eu tenho 19 anos de idade.\n",
+      "Eu tenho 19 anos de idade.\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 2 - uso de f-string e .format()\n",
+    "idade = 19\n",
+    "print(f'Eu tenho {idade} anos de idade.')\n",
+    "print('Eu tenho {} anos de idade.' .format(idade))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 161,
+   "id": "08bfe841",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Eu perdi 16.881943016134134 reais\n"
+     ]
+    }
+   ],
+   "source": [
+    "# exemplo 3 - importancia de formatação\n",
+    "variavel = (15 * 19)**(1 / 2)\n",
+    "print(f'Eu perdi {variavel} reais')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 165,
+   "id": "2143898d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Eu perdi 16.88 reais\n",
+      "Eu perdi 16.88 reais\n",
+      "Eu perdi 16.88 reias\n"
+     ]
+    }
+   ],
+   "source": [
+    "# exemplo 4 - arredondamento e outras formas de formatação\n",
+    "variavel2 = round(variavel,2)\n",
+    "print(f'Eu perdi {variavel2} reais')\n",
+    "print('Eu perdi {:.2f} reais' .format(variavel))\n",
+    "print('Eu perdi %.2f reias' %variavel)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 167,
+   "id": "2d5ca0f6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Eu perdi 16.88 reais, mas ganhei 1494.00 reais.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# exemplo 5 - mais de uma variável\n",
+    "recuperei = 1245 * 1.2\n",
+    "print('Eu perdi {:.2f} reais, mas ganhei {:.2f} reais.' .format(variavel,recuperei))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0361df94",
+   "metadata": {},
+   "source": [
+    "# Estrutura de Dados\n",
+    "- Listas, Tuplas e Sets\n",
+    "- Sequencia de valores de qualquer tipo, definidas por colchetes, cujos itens são separados por vírgula.\n",
+    "- Objeto mútavel"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 177,
+   "id": "7ce83eb5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'list'>\n",
+      "15\n",
+      "FEA\n",
+      "18.0\n",
+      "['FEA', 15]\n",
+      "['FEA', 15, '.dev', 18.0, False]\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 1 - função Type()\n",
+    "lista1 = ['FEA', 15, '.dev', 18.0, True]\n",
+    "print(type(lista1))\n",
+    "\n",
+    "#exemplo 2 - indexação\n",
+    "print(lista1[1])\n",
+    "print(lista1[0])\n",
+    "print(lista1[-2])\n",
+    "print(lista1[0:2])\n",
+    "\n",
+    "#exemplo 3 - Objeto mutável\n",
+    "lista1[-1] = False\n",
+    "print(lista1)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 178,
+   "id": "eed5138c",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndexError",
+     "evalue": "list index out of range",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mIndexError\u001b[0m                                Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp\\ipykernel_1160\\3416457924.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[1;31m#exemplo 4 - Erro ao indexar fora do intervalo.\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m----> 2\u001b[1;33m \u001b[0mlista1\u001b[0m\u001b[1;33m[\u001b[0m\u001b[1;36m11\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mIndexError\u001b[0m: list index out of range"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 4 - Erro ao indexar fora do intervalo.\n",
+    "lista1[11]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 180,
+   "id": "973bcffb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['FEA', 15, '.dev', 18.0, False, 'USP', False, True, 5.5]\n",
+      "['FEA', 15, '.dev', 18.0, False, 'FEA', 15, '.dev', 18.0, False, 'FEA', 15, '.dev', 18.0, False, 'FEA', 15, '.dev', 18.0, False, 'FEA', 15, '.dev', 18.0, False]\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 5 - Operações com listas\n",
+    "lista2 = ['USP', False, True, 5.5]\n",
+    "print(lista1 + lista2)\n",
+    "print(lista1*5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 181,
+   "id": "608a6ea5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[['FEA', 15, '.dev', 18.0, False], ['USP', False, True, 5.5]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 6 - Indexação lista dentro de listas\n",
+    "lista3 = [lista1, lista2]\n",
+    "print(lista3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 184,
+   "id": "0f1c4b26",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n",
+      "3.5\n",
+      "19\n",
+      "49.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 7 - Outras funções com listas\n",
+    "lista3 = [5.5, 6, 15, 19, 3.5]\n",
+    "print(len(lista3))\n",
+    "print(min(lista3))\n",
+    "print(max(lista3))\n",
+    "print(sum(lista3))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 185,
+   "id": "8a9fd516",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 185,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#exemplo 8 - in\n",
+    "'FEA' in lista1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "373d9dcf",
+   "metadata": {},
+   "source": [
+    "- Tuplas:: Assim como listas, é uma sequencia de valores de qualquer tipo, podem definidos por parenteses e itens separados por vírgula. \n",
+    "- Objeto mutavel"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 186,
+   "id": "3f2151f9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'tuple'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 9 - função type()\n",
+    "tupla1 = (1,True,'USP',9.5)\n",
+    "print(type(tupla1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 191,
+   "id": "e9006c7a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "True\n",
+      "(1, True)\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 10 - indexação de tuplas\n",
+    "print(tupla1[0])\n",
+    "print(tupla1[1])\n",
+    "print(tupla1[0:2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 195,
+   "id": "96d0ace6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(1, True, 'USP', 9.5, 'olá', 'mundo')\n",
+      "(1, True, 'USP', 9.5, 1, True, 'USP', 9.5, 1, True, 'USP', 9.5, 1, True, 'USP', 9.5, 1, True, 'USP', 9.5)\n",
+      "olá\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 12 - Concatenação e funções utilizadas em listas, também cabem aqui\n",
+    "tupla2 = ('olá', 'mundo')\n",
+    "print(tupla1 + tupla2)\n",
+    "print(tupla1 * 5)\n",
+    "print(max(tupla2))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 197,
+   "id": "69e6485c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['a', 'b', 'c']"
+      ]
+     },
+     "execution_count": 197,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#exemplo 13 - função tuple()\n",
+    "list('abc')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4eeda467",
+   "metadata": {},
+   "source": [
+    "- Sets:: Estruturas que não tem dados duplicados, definidas por chaves, todos elementos de set tem q ser imutável, embora o set em si é mutável, seus itens devem ser separados por vírgula"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 198,
+   "id": "ee6b8a1a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{1, 2, 3, 4, 'cinco'}\n",
+      "<class 'set'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 14 - função type() e set()\n",
+    "lista = {1,2,2,2,'cinco', 3,4,1,1,4,'cinco'}\n",
+    "st = set(lista)\n",
+    "print(st)\n",
+    "print(type(st))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 199,
+   "id": "46dff730",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'set' object is not subscriptable",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m~\\AppData\\Local\\Temp\\ipykernel_1160\\2310951106.py\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[1;31m#exemplo 15 - Não é possível indexar\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m----> 2\u001b[1;33m \u001b[0mst\u001b[0m\u001b[1;33m[\u001b[0m\u001b[1;36m0\u001b[0m\u001b[1;33m]\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: 'set' object is not subscriptable"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 15 - Não é possível indexar\n",
+    "st[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 200,
+   "id": "a96fe6be",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{1, 2, 3, 4, 'cinco', 8}\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 16 - É possível adicionar elementos, mas nao modificar algum apartir de 'add'\n",
+    "st.add(8)\n",
+    "print(st)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "62df0427",
+   "metadata": {},
+   "source": [
+    " - Métodos úteis de listas\n",
+    " lista.append(x): - adiciona elemento x no fim da lista\n",
+    " lista.sort(): - ordena a lista\n",
+    " lista.index(x): devolve o índice do elemento 'x' na lista.\n",
+    " lista.pop(i): remove o elemento de indice de 'I' da lista\n",
+    " list.remove(x) remove\n",
+    " list.insert(i, x) insere elemento"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 201,
+   "id": "fdb67ae8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[2, 9.2, 0, 13.6, 14, 0.1]\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 1 - append() e .insert()\n",
+    "new_list = [2,9.2,0,13.6,14]\n",
+    "\n",
+    "new_list.append(0.1)\n",
+    "\n",
+    "print(new_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 202,
+   "id": "4676d1ed",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[14, 2, 9.2, 0, 13.6, 14, 0.1]\n"
+     ]
+    }
+   ],
+   "source": [
+    "new_list.insert(0,14)\n",
+    "\n",
+    "print(new_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 203,
+   "id": "01177e50",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[14, 2, 9.2, 0, 13.6, 14]\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 2 - pop() e .remove()\n",
+    "new_list.pop(-1)\n",
+    "\n",
+    "print(new_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 204,
+   "id": "897da7f9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[2, 9.2, 0, 13.6, 14]\n"
+     ]
+    }
+   ],
+   "source": [
+    "new_list.remove(14)\n",
+    "\n",
+    "print(new_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 205,
+   "id": "6153ef0e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exemplo 3 - .index() e .sort()\n",
+    "print(new_list.index(13.6))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 206,
+   "id": "24fc99ef",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0, 2, 9.2, 13.6, 14]\n"
+     ]
+    }
+   ],
+   "source": [
+    "new_list.sort()\n",
+    "print(new_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8141d7a3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
